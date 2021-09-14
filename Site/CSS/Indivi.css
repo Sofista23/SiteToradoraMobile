@@ -1,0 +1,232 @@
+body{
+    background-color: rgb(238, 88, 88);
+}
+
+
+
+header{
+    background-color: rgba(226, 130, 85, 0.815);
+    padding: 5px;
+    height: 45px;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
+#titulo{
+    display: inline;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.menu{
+    display: none;
+}
+.menu a{
+    
+    border-radius: 10px;
+    background-color: rgb(228, 183, 183);
+    color: black;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+#impot{
+    background-color: rgb(117, 117, 202);
+}
+.logo{
+    width: 45px;
+    margin-top: 1px;
+    margin-left: -1px;
+}
+.dvPrinci{
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.pontos{
+    border: 2px solid;
+    margin-top: 5px;
+    width: 25px;
+    color: white;
+}
+#fechador{
+    position: absolute;
+    list-style-type: none;
+    font-size: 15px;
+    border-radius: 5px;
+    display: none;
+    margin-left: -35px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(228, 183, 183);
+    padding: 3px;
+}
+
+
+
+#botoes{
+    border: 1px solid;
+    border-radius: 10px;
+    height: auto    ;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: rgba(194, 73, 73, 0.849);
+    padding: 10px;
+}
+.btn{
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+#btn1{
+    background-color: rgb(218, 18, 78);
+}
+
+
+#btn2{
+    background-color: rgb(55, 57, 201);
+}
+
+
+#btn3{
+    background-color: rgb(206, 22, 144);
+}
+
+
+#btn4{
+    background-color: rgb(57, 145, 68);
+}
+
+
+#btn5{
+    background-color: rgb(44, 141, 206);
+}
+
+
+#btn6{
+    background-color: rgb(218, 200, 39);
+}
+
+
+#btn7{
+    background-color: white;
+}
+
+
+#btn8{
+    background-color: rgb(83, 250, 32);
+}
+
+
+#btn9{
+    background-color: rgb(108, 32, 250);
+}
+
+
+#btn10{
+    background-color: rgb(236, 146, 61);
+}
+
+
+#btn11{
+    background-color: rgb(221, 129, 183);
+}
+
+
+#btn12{
+    background-color: rgb(35, 48, 170);
+}
+
+
+
+.btnVoltar, .btnIr{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.26);
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 15px;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.4s ease;
+    user-select: none;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.btnVoltar{
+    left: 0;
+
+}
+.btnIr{
+    right: 0;
+}
+
+
+img{
+    width: 300px;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+
+
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.3s;
+    -webkit-animation-name: fate;
+    -webkit-animation-duration: 1.3s;
+}
+.slide{
+    display: none;
+}
+.mostra{
+    display: block;
+}
+
+
+
+p{
+    text-indent: 20px;
+}
+#dvTexto{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: justify;
+    background-color: rgba(194, 73, 73, 0.849);
+}
+#dvTexto h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+}
+#dvTexto p{
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+#rodape{
+    margin-left: 0px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    background-color:rgba(194, 73, 73, 0.849);
+}

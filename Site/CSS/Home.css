@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(238, 88, 88);
+}
+
+
+
+header{
+    background-color: rgba(226, 130, 85, 0.815);
+    padding: 5px;
+    height: 45px;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
+#ident{
+    display: inline;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.menu{
+    display: none;
+}
+.menu a{
+    
+    border-radius: 10px;
+    background-color: rgb(228, 183, 183);
+    color: black;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+#impot{
+    background-color: rgb(117, 117, 202);
+}
+.logo{
+    width: 45px;
+}
+.dvPrinci{
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.pontos{
+    border: 2px solid;
+    margin-top: 5px;
+    width: 25px;
+    color: white;
+}
+#fechador{
+    position: absolute;
+    list-style-type: none;
+    font-size: 15px;
+    border-radius: 5px;
+    display: none;
+    margin-left: -35px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(228, 183, 183);
+    padding: 3px;
+}
+
+
+
+#texto{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgba(194, 73, 73, 0.849);
+    height: 320px;
+}
+#titulo,#sinopse{
+    padding: 2px 5px;
+}
+#sinopse{
+    text-indent: 20px;
+}
+#link{
+    background-color: rgb(146, 70, 70);
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 120px;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+
+
+#videos{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+#abertura1{
+    margin-bottom: 10px;
+}
+.pLink,.aLink{
+    display: inline;
+}
+.aLink{
+    text-decoration: underline;
+    color: rgb(19, 21, 170);
+}
+
+
+
+.sci{
+    position: fixed;
+    bottom: 50px;
+    left: 35px;
+    display: flex;
+    justify-content: bottom;
+    align-items: center;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    margin-left: 15px;
+    background-color: black;
+    width: 50px;
+    height:50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+.sci li a:hover{
+    background-color: gray;
+    transform: translateY(-10px);
+}
+.sci li a img{
+    filter: invert(1);
+    transform: scale(0.5);
+}

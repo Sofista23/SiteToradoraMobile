@@ -1,0 +1,375 @@
+body{
+    background-color: rgb(238, 88, 88);
+}
+
+
+
+header{
+    background-color: rgba(226, 130, 85, 0.815);
+    padding: 5px;
+    height: 45px;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
+#ident{
+    display: inline;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.menu{
+    display: none;
+}
+.menu a{
+    
+    border-radius: 10px;
+    background-color: rgb(228, 183, 183);
+    color: black;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+#impot{
+    background-color: rgb(117, 117, 202);
+}
+.logo{
+    width: 45px;
+}
+.dvPrinci{
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.pontos{
+    border: 2px solid;
+    margin-top: 5px;
+    width: 25px;
+    color: white;
+}
+#fechador{
+    position: absolute;
+    list-style-type: none;
+    font-size: 15px;
+    border-radius: 5px;
+    display: none;
+    margin-left: -35px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(228, 183, 183);
+    padding: 3px;
+}
+
+
+
+#dvPersonagens{
+    text-align: center;
+}
+img{
+    width: 250px;
+}
+.ApresentaçãoDePersonagens{
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    color: rgb(77, 51, 51);
+    background-color: rgb(236, 116, 116);
+    text-align: center;
+}
+
+
+
+#dvTaiga{
+    border:2px solid;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(218, 18, 78);
+}
+#aTaiga{
+    color: black;
+    text-decoration: underline;
+}
+#imgTaiga{
+    width: 250px;
+    height: 250px;
+}
+#pTaiga{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+
+#dvRyuji{
+    border:2px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(55, 57, 201);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#aRyuji{
+    color: black;
+    text-decoration: underline;
+}
+#imgRyuji{
+    width: 250px;
+    height: 255px;
+}
+#pRyuji{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+
+#dvMinori{
+    border:2px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(206, 22, 144);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#aMinori{
+    color: black;
+    text-decoration: underline;
+}
+#imgMinori{
+    width: 250px;
+    height: 255px;
+}
+#pMinori{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+
+#dvYuusaku{
+    border:2px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(57, 145, 68);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#aYuusaku{
+    color: black;
+    text-decoration: underline;
+}
+#imgYuusaku{
+    width: 250px;
+    height: 255px;
+}
+#pYuusaku{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+
+#dvAmi{
+    border:2px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(44, 141, 206);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#aAmi{
+    color: black;
+    text-decoration: underline;
+}
+#imgAmi{
+    width: 250px;
+    height: 255px;
+}
+#pAmi{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+
+#dvYasuko{
+    border:2px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(218, 200, 39);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#aYasuko{
+    color: black;
+    text-decoration: underline;
+}
+#imgYasuko{
+    width: 250px;
+    height: 255px;
+}
+#pYasuko{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+
+#dvSumire{
+    border:2px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#aSumire{
+    color: black;
+    text-decoration: underline;
+}
+#imgSumire{
+    width: 250px;
+    height: 255px;
+}
+#pSumire{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+
+#dvHisamitsu{
+    border:2px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(83, 250, 32);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#aHisamitsu{
+    color: black;
+    text-decoration: underline;
+}
+#imgHisamitsu{
+    width: 250px;
+    height: 255px;
+}
+#pHisamitsu{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+
+#dvNanako{
+    border:2px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(108, 32, 250);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#aNanako{
+    color: black;
+    text-decoration: underline;
+}
+#imgNanako{
+    width: 250px;
+    height: 255px;
+}
+#pNanako{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+
+#dvMaya{
+    border:2px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(236, 146, 61);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#aMaya{
+    color: black;
+    text-decoration: underline;
+}
+#imgMaya{
+    width: 250px;
+    height: 255px;
+}
+#pMaya{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+
+#dvYuri{
+    border:2px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(221, 129, 183);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#aYuri{
+    color: black;
+    text-decoration: underline;
+}
+#imgYuri{
+    width: 250px;
+    height: 255px;
+}
+#pYuri{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+
+#dvKoji{
+    border:2px solid;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(35, 48, 170);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#aKoji{
+    color: black;
+    text-decoration: underline;
+}
+#imgKoji{
+    width: 250px;
+    height: 255px;
+}
+#pKoji{
+    text-align:center;
+    font-size: 20pt;
+    margin-top: 3px;
+}

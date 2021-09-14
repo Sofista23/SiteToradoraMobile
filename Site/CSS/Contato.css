@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(238, 88, 88);
+}
+
+
+
+header{
+    background-color: rgba(226, 130, 85, 0.815);
+    padding: 5px;
+    height: 45px;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
+#ident{
+    display: inline;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.menu{
+    display: none;
+}
+.menu a{
+    
+    border-radius: 10px;
+    background-color: rgb(228, 183, 183);
+    color: black;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+#impot{
+    background-color: rgb(117, 117, 202);
+}
+.logo{
+    width: 45px;
+}
+.dvPrinci{
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.pontos{
+    border: 2px solid;
+    margin-top: 5px;
+    width: 25px;
+    color: white;
+}
+#fechador{
+    position: absolute;
+    list-style-type: none;
+    font-size: 15px;
+    border-radius: 5px;
+    display: none;
+    margin-left: -35px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(228, 183, 183);
+    padding: 3px;
+}
+
+
+
+#formulario{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color:rgba(194, 73, 73, 0.849);
+}
+#formulario h1{
+    text-decoration: underline;
+}
+.emailP{
+    color: rgb(70, 30, 30);
+    text-decoration: overline underline;
+    font-size: 20px;
+}
+#span1{
+    color: black;
+}
+input,button,textarea{
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 4px;
+}
+#txt1{
+    display: none;
+}
+fieldset{
+    border: 1px solid black;
+    margin-top: 5px;
+}
+button{
+    margin-top: 10px;
+    padding: 7px 10px;
+}
